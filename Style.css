@@ -1,0 +1,51 @@
+body {
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#000;
+    color:white;
+    text-align:center;
+}
+
+header {
+    background:#00ff66;
+    color:black;
+    padding:25px;
+}
+
+h1 {
+    font-size:42px;
+    margin:0;
+}
+
+.hero img {
+    width:100%;
+    max-height:350px;
+    object-fit:cover;
+}
+
+.fixtures {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.match {
+    background:#111;
+    border:2px solid #00ff66;
+    padding:20px;
+    border-radius:12px;
+    font-size:20px;
+    transition:.3s;
+}
+
+.match:hover {
+    transform:scale(1.05);
+    background:#00ff66;
+    color:black;
+}
+
+footer {
+    padding:20px;
+    background:#111;
+}
